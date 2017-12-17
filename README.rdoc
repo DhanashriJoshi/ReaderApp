@@ -1,28 +1,19 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Please Follow the Steps to run the Application :
 
-Things you may want to cover:
+1. Clone the Repository to your Local Machine
 
-* Ruby version
+2. Got to the path to your repository on you Local Machine
 
-* System dependencies
+3. Run the following command to install Gems : <tt>bundle install</tt>
 
-* Configuration
+4. Ran the following commands to setup database :
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+  - To create the database schema : <tt>rake db:create</tt>
+  
+  - To alter the database schema : <tt>rake db:migrate</tt>
+  
+  - To add data to the database schema : <tt>rake db:seed</tt>
+  
+ 5. To run the server : <tt>rails server / rails s</tt>
