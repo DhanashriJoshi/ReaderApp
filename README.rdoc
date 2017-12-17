@@ -2,18 +2,16 @@
 
 Please Follow the Steps to run the Application :
 
-1. Clone the Repository to your Local Machine
+- Clone the Repository to your Local Machine
 
-2. Got to the path to your repository on you Local Machine
+- Got to the path to your repository on you Local Machine
 
-3. Run the following command to install Gems : <tt>bundle install</tt>
+- Run the following command to install Gems : <tt>bundle install</tt>
 
-4. Ran the following commands to setup database :
-
-  - To create the database schema : <tt>rake db:create</tt>
+- To create the database schema : <tt>rake db:create</tt>
   
-  - To alter the database schema : <tt>rake db:migrate</tt>
+- To alter the database schema : <tt>rake db:migrate</tt>
   
-  - To add data to the database schema : <tt>rake db:seed</tt>
+- To add data to the database schema : <tt>rake db:seed</tt>
   
- 5. To run the server : <tt>rails server / rails s</tt>
+- To run the server : <tt>rails server / rails s</tt>
