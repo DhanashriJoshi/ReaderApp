@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<div class = "panel panel-default">
+  <div class = "panel-heading"><h4><%= @feed.title %></h4><%= link_to 'Show Articles', feed_articles_path(@feed) %></div>
+
+  <table class = "table">
+    <tr>
+      <th>Description</th>
+      <td><%= @feed.description %></td>
+    </tr>
+
+    <tr>
+      <th>Url</th>
+      <td> <%= @feed.url %></td>
+    </tr>
+  </table>
+  <div class = "panel-footer">
+    <%= link_to 'Edit', edit_feed_path(@feed) %> |
+    <%= link_to 'Back', feeds_path %>
+  </div>
+</div>
