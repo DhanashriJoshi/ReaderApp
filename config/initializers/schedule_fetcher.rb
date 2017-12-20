@@ -1,1 +1,1 @@
-Fetcher.delay.fetch_all_feeds
+# Fetcher.delay.fetch_all_feeds
