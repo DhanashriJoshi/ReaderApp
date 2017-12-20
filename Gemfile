@@ -6,6 +6,7 @@ gem 'rails', '4.2.7.1'
 gem 'mysql2', '>= 0.3.13', '< 0.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+gem 'coffee-rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -21,7 +22,10 @@ gem 'bootstrap-generators', '~> 3.3.4'
 # To Parse urls
 gem 'nokogiri'
 # For Backgound Processes
+gem 'delayed_job'
 gem 'delayed_job_active_record'
 
 # to wrap existing ruby scripts to be run by simple start/stop/restart commands
 gem "daemons"
+gem 'awesome_print'
+
